@@ -1,0 +1,280 @@
+iframe {
+    align-items: center;
+    border: 5px solid black;
+    margin: 5%;
+}
+
+.main_div{
+    display: flex;
+}
+.body {
+    background-color: #fdfcfb;
+}
+
+.nav1 {
+    background-color: transparent;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.col {
+    padding-bottom: 2%;
+}
+
+.card {
+    /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    background-repeat: no-repeat;*/
+    background-color: black;
+    border-radius: 5px;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(.21, .69, .83, .67);
+}
+
+.container h1 {
+    text-align: left;
+    padding: 10%;
+    margin-top: 20%;
+}
+
+img {
+
+    width: 500px;
+    height: 500px;
+}
+
+#largeMapLink,
+#dirMapLink {
+    text-decoration: none;
+    color: black;
+}
+
+canvas {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 600px;
+}
+
+.map {
+    width: 1100px;
+    height: 600px;
+}
+
+.myMap {
+    width: 600px;
+    height: 285px;
+}
+
+/*Fold*/
+@media screen and (min-width: 0px) and (max-width: 281px) {
+    .nav1 {
+        width: 540px;
+    }
+
+    .container {
+        position: relative;
+        left: 50%;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .map {
+        padding: 3%;
+        margin-left: 5%;
+        width: 200px;
+        height: 200px;
+    }
+
+    canvas {
+        width: 200px;
+    }
+
+    .myMap {
+        width: 220px;
+        height: 200px;
+    }
+}
+
+/*SE*/
+@media screen and (min-width: 282px) and (max-width: 376px) {
+    .nav1 {
+        width: 540px;
+    }
+
+    .container {
+        position: relative;
+        left: 20%;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .map {
+        padding: 3%;
+        margin-left: 5%;
+        width: 300px;
+        height: 300px;
+    }
+
+    canvas {
+        width: 300px;
+    }
+
+    .myMap {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+/*pro*/
+@media screen and (min-width: 377px) and (max-width: 394px) {
+    .nav1 {
+        width: 540px;
+    }
+
+    .container {
+        position: relative;
+        left: 20%;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .map {
+        padding: 3%;
+        margin-left: 5%;
+        width: 300px;
+        height: 300px;
+    }
+
+    canvas {
+        width: 300px;
+    }
+
+    .myMap {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+/*XR*/
+@media screen and (min-width: 395px) and (max-width: 415px) {
+    .nav1 {
+        width: 540px;
+    }
+
+    .container {
+        position: relative;
+        left: 15%;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .map {
+        padding: 3%;
+        margin-left: 5%;
+        width: 300px;
+        height: 300px;
+    }
+
+    canvas {
+        width: 300px;
+    }
+
+    .myMap {
+        width: 320px;
+        height: 200px;
+    }
+}
+
+/*duo*/
+@media screen and (min-width: 416px) and (max-width: 541px) {
+    .nav1 {
+        width: 560px;
+    }
+
+    .container {
+        position: relative;
+        left: 2%;
+        right: 2%;
+    }
+
+    .cont1 {
+        background-color: azure;
+    }
+
+    .map {
+        padding: 3%;
+        margin-left: 5%;
+        width: 450px;
+        height: 300px;
+    }
+
+    canvas {
+        width: 450px;
+    }
+
+    .myMap {
+        width: 480px;
+        height: 200px;
+    }
+}
+
+svg {
+    width: 1220px;
+    margin: 2%;
+}
+
+.main_svg {
+    background-color: red;
+}
+
+/*ipad*/
+@media screen and (min-width: 542px) and (max-width: 821px) {
+    .nav1 {
+        width: 100%;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .map {
+        padding: 3%;
+        margin-left: 5%;
+        width: 600px;
+        height: 500px;
+    }
+
+}
+
+@media screen and (min-width: 822px) and (max-width: 913px) {
+    .nav1 {
+        width: 100%;
+    }
+
+    .container {
+        position: relative;
+        left: 10%;
+    }
+
+    .map {
+        padding: 3%;
+        margin-left: 5%;
+        width: 600px;
+        height: 500px;
+    }
+}
